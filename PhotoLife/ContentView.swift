@@ -12,6 +12,7 @@ struct ContentView: View {
     @State var outputText = "Hello, World!"
     
     var body: some View {
+        
         VStack {
             Text(outputText)
                 .fontWeight(.regular)
@@ -23,6 +24,9 @@ struct ContentView: View {
                 .font(.system(size:40))
             Button(action: {
                 outputText = "I am Watson!!"
+                //Debug areaに表示した文字と変数を指定
+//                print("デバックテスト")
+//                print(outputText)
             }) {
                 Text("Change")
                     .font(.system(size:40))
@@ -37,6 +41,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
+        
         ContentView()
     }
 }

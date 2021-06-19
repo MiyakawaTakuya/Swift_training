@@ -45,6 +45,7 @@
 		383E3B66267AF47700040F03 /* PhotoLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		383E3B6A267AF47700040F03 /* PhotoLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLifeUITests.swift; sourceTree = "<group>"; };
 		383E3B6C267AF47700040F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		383E3B78267C1D9B00040F03 /* MyCamera */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MyCamera; path = "../../Task 11 Prototype/MyCamera"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +76,7 @@
 		383E3B41267AF47600040F03 = {
 			isa = PBXGroup;
 			children = (
+				383E3B78267C1D9B00040F03 /* MyCamera */,
 				383E3B4C267AF47600040F03 /* PhotoLife */,
 				383E3B5E267AF47700040F03 /* PhotoLifeTests */,
 				383E3B69267AF47700040F03 /* PhotoLifeUITests */,
