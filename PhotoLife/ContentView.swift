@@ -29,11 +29,12 @@ struct ContentView: View {
 //                print(outputText)
             }) {
                 Text("Change")
-                    .font(.system(size:40))
+                    .font(.system(size:32))
                     .foregroundColor(Color.white)
             }
             .padding(.all, 3.0)
-            .background(Color.gray)
+            .background(Color.blue)
+            .cornerRadius(12)
         }
         
     }
